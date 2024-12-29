@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(78, 75, 75, 0.55), rgba(0,0,0,0.55)), url(adminfinal.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+header {
+    background-color:black;
+    color:#fff;
+    box-shadow: 0 0 50px rgb(197, 196, 189);
+    padding: 10px 0;
+    position: fixed;
+    top:3%;
+    width: 100%;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #0056b3;
+    border-radius: 4px;
+}
+
+.login-container {
+    backdrop-filter: blur(40px);
+    padding: 20px 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 50px rgb(197, 196, 189);
+}
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:whitesmoke;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: whitesmoke;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.login-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.login-button:hover {
+    background-color: #0056b3;
+}

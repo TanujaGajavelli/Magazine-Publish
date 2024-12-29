@@ -1,0 +1,106 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(181, 179, 179, 0.55), rgba(180, 173, 173, 0.55)), url('admin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color:black;
+    color:#fff;
+    box-shadow: 0 0 50px rgb(197, 196, 189);
+    padding: 10px 0;
+    position: fixed;
+    top:3%;
+    width: 100%;
+    width: 95%;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: white;
+    border-radius: 4px;
+    color: black;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 35px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.3); /* White with transparency */
+
+}
+th{
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    color: white;
+    background-color: black;
+}
+ td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    color: black;
+    background-color: #fff;
+}
+
+th {
+    background-color: black;
+}
+
+.approved {
+    color: green;
+}
+
+.rejected {
+    color: red;
+}
+
+.pending {
+    color: rgb(0, 42, 255);
+}
+
+.action-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}

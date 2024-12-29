@@ -1,0 +1,106 @@
+body{
+    background-image: linear-gradient(rgba(78, 75, 75, 0.55), rgba(0,0,0,0.55)), url('hom123.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        min-height: 100vh;
+    
+}
+header {
+    background-color:black;
+    color:#fff;
+    box-shadow: 0 0 50px rgb(197, 196, 189);
+    padding: 10px 0;
+    position: fixed;
+    top:3%;
+    width: 95%;
+    margin-left: 2%;
+}
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: bisque;
+    border-radius: 4px;
+    color: black;
+}
+h3{
+    margin-top: 100px;
+    margin-left: 45% ;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: white;
+}
+form{
+    border: 3px solid rgb(238, 236, 154);
+    border-radius: 3%;
+    box-shadow: 0 0 50px rgb(239, 233, 181);
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap ;
+    width: 40%;
+    margin: 3% 30% 5% 30%;
+    height: 400px;
+    backdrop-filter: blur(70px);
+}
+.labels,.inputs{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60%;
+    font-size: 25px;
+}
+.labels{
+    float: left;
+    position: relative;
+    width: 50%;
+    color: white;
+}
+.inputs{
+    float: right;
+    position: relative;
+    width: 50%;
+}
+input{
+    height: 25px;
+    border-radius:10px ;
+    border-color: white;
+    width:70%
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+button{
+    font-size: 23px;
+    border-radius: 10px;
+    border-color: white;
+    color: rgb(34, 32, 32);
+}
+p{
+    font-size: 15px;
+    margin-left: 100px;
+    color: white;
+}

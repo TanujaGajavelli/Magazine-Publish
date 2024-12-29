@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: black;
+    background-image:linear-gradient(rgba(181, 179, 179, 0.55), rgba(180, 173, 173, 0.55)), url(about-us.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+header {
+    background-color:black;
+    color:#fff;
+    box-shadow: 0 0 50px rgb(197, 196, 189);
+    padding: 10px 0;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color:white;
+    border-radius: 4px;
+    color:black;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+section {
+    background-color: rgba(237, 234, 234, 0.849); /* White with transparency */
+    padding: 10px;
+    margin: 30px 0;
+    border-radius: 5px;
+    backdrop-filter: blur(10px); /* Applies blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For better compatibility */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
+}
+
+h2 {
+    color:black;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
